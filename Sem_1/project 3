@@ -15,10 +15,10 @@
         <input type="text" placeholder="First Name">
         <br><br>
         <label for="">Enter the Phone Number :-</label>
-        <input type="number">
+        <input type="number" placeholder="phone no">
         <br><br>
         <label for="">Enter the Password:-</label>
-        <input type="password">
+        <input type="password" placeholder="password">
         <br><br>
         <label for="">Enter the Email :- </label>
         <input type="email">
@@ -34,6 +34,10 @@
          <input type="radio" name ="Gender" >
          <label for="">others</label>
 
+          <br><br>
+
+          <label for="color">color</label>
+          <input type="color" id="color" name="color">
           <br><br>
           <label for="">Choice 1</label>
          <input type="checkbox">
@@ -53,12 +57,16 @@
 
            <br><br>
            <label for="">Comment </label>
+           <br>
            <textarea name="" id=""></textarea>
 
 
           <br><br>
           <input type="file">
           <input type="date">
+          <br><br>
+          <button type="reset">reset</button>
+          <br><br>
         <button type="submit">Submit</button>
     </form>
 </body>
