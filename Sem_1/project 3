@@ -12,16 +12,17 @@
     <form action="">
 
         <label for=""> First Name :- </label>
-        <input type="text" placeholder="First Name">
+        <input type="text" required placeholder="First Name">
         <br><br>
         <label for="">Enter the Phone Number :-</label>
-        <input type="number" placeholder="phone no">
+        <input type="number" required placeholder="phone no" >
+        
         <br><br>
         <label for="">Enter the Password:-</label>
-        <input type="password" placeholder="password">
+        <input type="password" required placeholder="password">
         <br><br>
         <label for="">Enter the Email :- </label>
-        <input type="email">
+        <input type="email" required placeholder="email">
         <br><br>
 
 
@@ -66,7 +67,7 @@
           <input type="date">
           <br><br>
           <button type="reset">reset</button>
-          <br><br>
+          
         <button type="submit">Submit</button>
     </form>
 </body>
